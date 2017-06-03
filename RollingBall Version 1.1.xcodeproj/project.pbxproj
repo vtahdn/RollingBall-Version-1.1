@@ -12,6 +12,7 @@
 		DE74C7161EE2F6E300EA78BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE74C7141EE2F6E300EA78BF /* Main.storyboard */; };
 		DE74C7181EE2F6E300EA78BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE74C7171EE2F6E300EA78BF /* Assets.xcassets */; };
 		DE74C71B1EE2F6E300EA78BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE74C7191EE2F6E300EA78BF /* LaunchScreen.storyboard */; };
+		DE74C7241EE2F70100EA78BF /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = DE74C7231EE2F70100EA78BF /* ball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DE74C7171EE2F6E300EA78BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE74C71A1EE2F6E300EA78BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE74C71C1EE2F6E300EA78BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE74C7231EE2F70100EA78BF /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +62,17 @@
 				DE74C7171EE2F6E300EA78BF /* Assets.xcassets */,
 				DE74C7191EE2F6E300EA78BF /* LaunchScreen.storyboard */,
 				DE74C71C1EE2F6E300EA78BF /* Info.plist */,
+				DE74C7221EE2F6F200EA78BF /* Resource */,
 			);
 			path = "RollingBall Version 1.1";
+			sourceTree = "<group>";
+		};
+		DE74C7221EE2F6F200EA78BF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DE74C7231EE2F70100EA78BF /* ball.png */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			files = (
 				DE74C71B1EE2F6E300EA78BF /* LaunchScreen.storyboard in Resources */,
 				DE74C7181EE2F6E300EA78BF /* Assets.xcassets in Resources */,
+				DE74C7241EE2F70100EA78BF /* ball.png in Resources */,
 				DE74C7161EE2F6E300EA78BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
