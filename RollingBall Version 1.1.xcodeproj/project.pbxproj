@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE74C7111EE2F6E300EA78BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE74C7101EE2F6E300EA78BF /* AppDelegate.swift */; };
+		DE74C7131EE2F6E300EA78BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE74C7121EE2F6E300EA78BF /* ViewController.swift */; };
+		DE74C7161EE2F6E300EA78BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE74C7141EE2F6E300EA78BF /* Main.storyboard */; };
+		DE74C7181EE2F6E300EA78BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE74C7171EE2F6E300EA78BF /* Assets.xcassets */; };
+		DE74C71B1EE2F6E300EA78BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE74C7191EE2F6E300EA78BF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE74C70D1EE2F6E300EA78BF /* RollingBall Version 1.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RollingBall Version 1.1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE74C7101EE2F6E300EA78BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE74C7121EE2F6E300EA78BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE74C7151EE2F6E300EA78BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE74C7171EE2F6E300EA78BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE74C71A1EE2F6E300EA78BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE74C71C1EE2F6E300EA78BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE74C70A1EE2F6E300EA78BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE74C7041EE2F6E300EA78BF = {
+			isa = PBXGroup;
+			children = (
+				DE74C70F1EE2F6E300EA78BF /* RollingBall Version 1.1 */,
+				DE74C70E1EE2F6E300EA78BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE74C70E1EE2F6E300EA78BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE74C70D1EE2F6E300EA78BF /* RollingBall Version 1.1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE74C70F1EE2F6E300EA78BF /* RollingBall Version 1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				DE74C7101EE2F6E300EA78BF /* AppDelegate.swift */,
+				DE74C7121EE2F6E300EA78BF /* ViewController.swift */,
+				DE74C7141EE2F6E300EA78BF /* Main.storyboard */,
+				DE74C7171EE2F6E300EA78BF /* Assets.xcassets */,
+				DE74C7191EE2F6E300EA78BF /* LaunchScreen.storyboard */,
+				DE74C71C1EE2F6E300EA78BF /* Info.plist */,
+			);
+			path = "RollingBall Version 1.1";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE74C70C1EE2F6E300EA78BF /* RollingBall Version 1.1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE74C71F1EE2F6E300EA78BF /* Build configuration list for PBXNativeTarget "RollingBall Version 1.1" */;
+			buildPhases = (
+				DE74C7091EE2F6E300EA78BF /* Sources */,
+				DE74C70A1EE2F6E300EA78BF /* Frameworks */,
+				DE74C70B1EE2F6E300EA78BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RollingBall Version 1.1";
+			productName = "RollingBall Version 1.1";
+			productReference = DE74C70D1EE2F6E300EA78BF /* RollingBall Version 1.1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE74C7051EE2F6E300EA78BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Viet;
+				TargetAttributes = {
+					DE74C70C1EE2F6E300EA78BF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DE74C7081EE2F6E300EA78BF /* Build configuration list for PBXProject "RollingBall Version 1.1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE74C7041EE2F6E300EA78BF;
+			productRefGroup = DE74C70E1EE2F6E300EA78BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE74C70C1EE2F6E300EA78BF /* RollingBall Version 1.1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE74C70B1EE2F6E300EA78BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE74C71B1EE2F6E300EA78BF /* LaunchScreen.storyboard in Resources */,
+				DE74C7181EE2F6E300EA78BF /* Assets.xcassets in Resources */,
+				DE74C7161EE2F6E300EA78BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE74C7091EE2F6E300EA78BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE74C7131EE2F6E300EA78BF /* ViewController.swift in Sources */,
+				DE74C7111EE2F6E300EA78BF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE74C7141EE2F6E300EA78BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE74C7151EE2F6E300EA78BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE74C7191EE2F6E300EA78BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE74C71A1EE2F6E300EA78BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE74C71D1EE2F6E300EA78BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE74C71E1EE2F6E300EA78BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE74C7201EE2F6E300EA78BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RollingBall Version 1.1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Viet-s-Lab.RollingBall-Version-1-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DE74C7211EE2F6E300EA78BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RollingBall Version 1.1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Viet-s-Lab.RollingBall-Version-1-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE74C7081EE2F6E300EA78BF /* Build configuration list for PBXProject "RollingBall Version 1.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE74C71D1EE2F6E300EA78BF /* Debug */,
+				DE74C71E1EE2F6E300EA78BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE74C71F1EE2F6E300EA78BF /* Build configuration list for PBXNativeTarget "RollingBall Version 1.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE74C7201EE2F6E300EA78BF /* Debug */,
+				DE74C7211EE2F6E300EA78BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE74C7051EE2F6E300EA78BF /* Project object */;
+}
